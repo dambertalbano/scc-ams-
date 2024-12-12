@@ -6,7 +6,7 @@ import { AdminContext } from '../context/AdminContext';
 import { TeacherContext } from '../context/TeacherContext';
 
 const Login = () => {
-  const [state, setState] = useState('Admin'); // Options: 'Admin', 'Teacher'
+  const [state, setState] = useState('Admin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
